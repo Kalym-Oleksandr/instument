@@ -1,0 +1,65 @@
+.main__product-quality {
+    display: flex;
+    flex-direction: column;
+}
+
+h3 {
+    text-align: center;
+}
+
+.main__product-quality-premium-materials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main__product-quality-fast-shiping {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main__product-quality-quality-assurance {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main__video {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.main__video-iframe {
+    width: 380px;
+    height: 260px;
+}
+
+@media (min-width: 800px) {
+    .main__video-iframe {
+        width: 640px;
+        height: 390px;
+    }
+}
+
+.main__products {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2px;
+ padding: 0 100px;
+}
+
+.main__products-trombone {
+    border: 1px solid black;
+    padding: 5px;
+    max-width: 300px;
+    text-align: center;
+}
+
+@media (min-width: 800px) {
+    .main__products {
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 2px;
+    }
+}

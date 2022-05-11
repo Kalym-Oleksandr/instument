@@ -1,0 +1,15 @@
+footer {
+    text-align: end;
+    background-color: silver;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+}
+
+.main__products-button {
+    background-color: var(--main-botton-color);
+    border: 0;
+    padding: 3px;
+}

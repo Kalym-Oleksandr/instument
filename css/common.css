@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 * {
     margin: 0;
@@ -6,10 +6,10 @@
 }
 
 :root {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Pacifico', cursive;
     --main-text-color: black;
     --main-botton-color: #f1c40f;
-    --main-icon-color: darkorange;
+    --main--color: darkorange;
 }
 
 img {

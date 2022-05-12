@@ -1,15 +1,11 @@
 footer {
-    text-align: end;
-    background-color: silver;
+    text-align: right;
+    background-color: rgb(222,228,255);
+    color: rgb(170, 186, 255);
 }
 
 footer a {
-    color: black;
+    color: rgb(170, 186, 255);
     text-decoration: none;
 }
 
-.main__products-button {
-    background-color: var(--main-botton-color);
-    border: 0;
-    padding: 3px;
-}

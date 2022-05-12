@@ -6,84 +6,90 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="img/head/icon.png">
+    <link rel="icon" href="img/logo1.png">
     <link rel="stylesheet" href="css/index.css">
     <title>Original Trombones </title>
+
 <body>
-    <header>
+    <header id="header">
         <div class="header__menu">
-            <div class="header__menu_top">
-                <img class="header__menu_top-img" src="img/logo.png" alt="logoinstrument">
-            </div>
-            <div class="header__menu-nagation">
-                <a class="header__menu-navigation-link" href="#features">Features</a>
-                <a class="header__menu-navigation-link" href="#how-it-works">How it Works</a>
-                <a class="header__menu-navigation-link" href="#pricing">Pricing</a>
-            </div>
-        </div>
-        <div class="header__email">
-            <h2 class="header__email-handceafted">Handcrafted, home-made masterpieces</h2>
-            <form class="header__email-container" action="#" method="post">
-                <input type="email" placeholder="Enter your email address">
-                <input class="header__email-submit" type="submit" value="GET STERTED" name="button">
-            </form>
+            <img id="header-img" class="header__menu-top-img" src="img/logo1.png">
+            <nav id="nav-bar" class="header__menu-nagation">
+                <a class="nav-link" href="#features">Переваги</a>
+                <a class="nav-link" href="#how-it-works">Польоти</a>
+                <a class="nav-link" href="#pricing">Ціна та замовлення</a>
+            </nav>
         </div>
     </header>
     <main>
-        <div class="main__product-quality">
-            <h3>Premium Materials</h3>
-            <div class="main__product-quality-premium-materials">
-                <img src="img/local_fire.svg" alt="fire">
-                <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of
-                    your
-                    purchase.</p>
-            </div>
-            <h3>Fast Shiping</h3>
-            <div class="main__product-quality-fast-shiping">
-                <img class="main__product-quality-fast-shiping-img" src="img/local_shipping.svg" alt="truck">
-                <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free
-                    returns if you are not satisfied.</p>
-            </div>
-            <h3>Quality Assurance</h3>
-            <div class="main__product-quality-quality-assurance">
-                <img src="img/battery_full.svg" alt="battery">
-                <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test
-                    the
-                    pitch of your instrument.</p>
-            </div>
+        <div class="header__text">
+            <h1 class="header__text-handcraft">Переваги агентства польотів "В небо"</h1>
         </div>
-        <div class="main__video">
-            <iframe class="main__video-iframe" width="1110" height="463"
-                src="https://www.youtube.com/embed/qNYfM0ovwug?list=PLN0q19AZLbSdhW_PmH_Ic9nA5IWtE7cJ9"
-                title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        <div class="main__product" id="features">
+            <article class="main__product-quality">
+                <img class="main__product-quality-img" src="img/litak.png" alt="plane">
+                <div class="main__product-quality-text">
+                    <h3>БЕЗПЕЧНІ ПОЛЬОТИ</h3>
+                    <p class="main__product-quality-p">Діюча льотна придатність.<br>
+                        Постійний технічний огляд.<br>Ліцензовані
+                        пілоти.<br>Великий наліт годин</p>
+                </div>
+            </article>
+            <article class="main__product-quality">
+                <img class="main__product-quality-img" src="img/chek.png" alt="check">
+                <div class="main__product-quality-text">
+                    <h3>ГАРАНТІЯ ОПЛАТИ</h3>
+                    <p class="main__product-quality-p">Товарний чек на повну суму оплати.<br>Можливість повернення Сертифікату протягом 14 днів.<br>Можливість продовження терміну дії Сертифіката</p>
+                </div>
+            </article>
+            <article class="main__product-quality">
+                <img class="main__product-quality-img" src="img/pilot.png" alt="pilot">
+                <div class="main__product-quality-text">
+                    <h3>Професійні пілоти</h3>
+                    <p class="main__product-quality-p">Досвідчені пілоти зі стажем понад 10 років та нальотом понад 1000 годин.<br>Літають на понад 10
+                        типах повітряних суден<br>(Л-29, Л-39, Ан-74, Ан-28, Як-18т, Ан-2, Як-52, ХАЗ-30, По-2, Мі-2, Ак-
+                        1-3 та ін.)</p>
+                </div>
+            </article>
+        </div>
+        <div class="main__video" id="how-it-works">
+            <iframe id="video" src="https://www.youtube.com/embed/kouPTLON4R4" title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
         </div>
-        <div class="main__products">
-            <div class="main__products-trombone">
-                <h3>$600</h3>
-                <p>lorem ipsum</p>
-                <p>lorem ipsum</p>
-                <p>lorem ipsum</p>
-                <p>lorem ipsum</p>
-                <button>SELECT</button>
-            </div>
-            <div class="main__products-trombone">
-                <h3>$900</h3>
-                <p>lorem ipsum</p>
-                <p>lorem ipsum</p>
-                <p>lorem ipsum</p>
-                <p>lorem ipsum</p>
-                <button class="main__products-button">SELECT</button>
-            </div>
-            <div class="main__products-trombone">
-                <h3>$1200</h3>
-                <p>lorem ipsum</p>
-                <p>lorem ipsum</p>
-                <p>lorem ipsum</p>
-                <p>lorem ipsum</p>
-                <button class="main__products-button">SELECT</button>
-            </div>
+        <div class="main__products-price">
+            <article class="main__products-trombone a22" id="pricing">
+                <h3>Політ на літаку А22</h3>
+                <h5>Інформація про політ</h5>
+                <p>Сезон польотів: цілій рік</p>
+                <p>Кількість учасників: 1 (з 16 років)</p>
+                <p>Графік польотів: сб,нд</p>
+                <h5>2200</h5>
+                <button class="main__products-button">Замовити</button>
+            </article>
+            <article class="main__products-trombone amfibia">
+                <h3>Політ на літаку Амфібія</h3>
+                <h5>Інформація про політ</h5>
+                <p>Сезон польотів: літо</p>
+                <p>Кількість учасників: 2 (з 16 рокiв)</p>
+                <p>Графік польотів: сб,нд</p>
+                <h5>2500</h5>
+                <button class="main__products-button">Замовити</button>
+            </article>
+            <article class="main__products-trombone cessna150">
+                <h3>Політ на літаку Cessna 150</h3>
+                <h5>Інформація про політ</h5>
+                <p>Сезон польотів: цілий року</p>
+                <p>Кількість учасників: 1 (з 16 рокiв)</p>
+                <p>Графік польотів: пн-нд</p>
+                <h5>2900</h5>
+                <button class="main__products-button">Замовити</button>
+            </article>
         </div>
+        <form action="https://www.freecodecamp.com/email-submit" id="form">
+            <input type="email" id="form-email" name="email" placeholder="Вкажіть ваш Email">
+            <input type="submit" id="form-submit" class="main__products-button" value="Надіслати">
+        </form>
     </main>
     <footer>
         <a href="#privacy">Privacy</a>
